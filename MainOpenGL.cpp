@@ -1206,11 +1206,11 @@ void keyboard(unsigned char key, int x, int y) {
       break;
 
     case 'v':
-      rot += 0.05;
+      rot += 0.01;
       break;
 
     case 'V':
-      rot -= 0.05;
+      rot -= 0.01;
       break;
 
 
